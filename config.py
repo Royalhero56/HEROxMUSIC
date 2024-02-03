@@ -14,9 +14,9 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 # Add Owner Username without @ 
 OWNER_USERNAME = getenv("OWNER_USERNAME","iamcutehro")
 # Get Your bot username
-BOT_USERNAME = getenv("BOT_USERNAME" , "NexikoBot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "iamhero678")
 # Don't Add style font 
-BOT_NAME = getenv("BOT_NAME" , "Nexiko")
+BOT_NAME = getenv("BOT_NAME" , "HEROxMUSIC")
 #get Your Assistant User name
 ASSUSERNAME = getenv("ASSUSERNAME" , "missanika")
 EVALOP = list(map(int, getenv("EVALOP", "1808943146 5360305806 6664582540 6050277919").split()))
@@ -26,10 +26,10 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", -1001919135283))
+LOGGER_ID = int(getenv("LOGGER_ID", --1001812811134))
 
 # Get this value from  on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 6664582540))
+OWNER_ID = int(getenv("OWNER_ID", 6343729323))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -121,21 +121,21 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://telegra.ph/file/cfbdee8103102bcb2e5da.jpg"
+    "START_IMG_URL", "https://graph.org/file/8e904425b527cb3045de2.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://telegra.ph/file/00360393a15daf7fc4e9d.jpg"
+    "PING_IMG_URL", "https://graph.org/file/91403ce53cf2966538344.jpg"
 )
-PLAYLIST_IMG_URL = "https://telegra.ph/file/d723f4c80da157fca1678.jpg"
-STATS_IMG_URL = "https://telegra.ph/file/d30d11c4365c025c25e3e.jpg"
-TELEGRAM_AUDIO_URL = "https://telegra.ph/file/48f39202823b358203234.jpg"
-TELEGRAM_VIDEO_URL = "https://telegra.ph/file/e575ae40d6635250974e1.jpg"
-STREAM_IMG_URL = "https://telegra.ph/file/03efec694e41e891b29dc.jpg"
-SOUNCLOUD_IMG_URL = "https://telegra.ph/file/d723f4c80da157fca1678.jpg"
-YOUTUBE_IMG_URL = "https://telegra.ph/file/4dc854f961cd3ce46899b.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://telegra.ph/file/d723f4c80da157fca1678.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://telegra.ph/file/6c741a6bc1e1663ac96fc.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://telegra.ph/file/6c741a6bc1e1663ac96fc.jpg"
+PLAYLIST_IMG_URL = "https://graph.org/file/57eb05aba7008c2419046.jpg"
+STATS_IMG_URL = "https://graph.org/file/57eb05aba7008c2419046.jpg"
+TELEGRAM_AUDIO_URL = "https://graph.org/file/57eb05aba7008c2419046.jpg"
+TELEGRAM_VIDEO_URL = "https://graph.org/file/57eb05aba7008c2419046.jpg"
+STREAM_IMG_URL = "https://graph.org/file/57eb05aba7008c2419046.jpg"
+SOUNCLOUD_IMG_URL = "https://graph.org/file/57eb05aba7008c2419046.jpg"
+YOUTUBE_IMG_URL = "https://graph.org/file/57eb05aba7008c2419046.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/57eb05aba7008c2419046.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://graph.org/file/57eb05aba7008c2419046.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://graph.org/file/57eb05aba7008c2419046.jpg"
 
 
 def time_to_seconds(time):
